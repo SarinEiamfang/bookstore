@@ -1,6 +1,6 @@
-import { CommonModule } from '@angular/common';//////////////////////
+import { CommonModule } from '@angular/common';///////////////////add commonmodule
 import { Component, Input, OnInit } from '@angular/core';
-import { Content } from '../helper-files/content-interface'//////////////
+import { Content } from '../helper-files/content-interface'/////////////add coontent
 
 @Component({
   selector: 'app-content-list',
