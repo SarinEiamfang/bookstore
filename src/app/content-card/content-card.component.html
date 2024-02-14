@@ -1,1 +1,12 @@
-<p>content-card works!</p>
+
+
+
+
+
+<div *ngFor = "let b of bookItem" class="content-card"> <!-- book can be anything-->
+    <h2>{{ b.title }}</h2>
+    <p><strong>Description:</strong> {{ b.description }}</p>
+    <p><strong>Author:</strong> {{ b.creator }}</p>
+    <p><strong>Cover: </strong>{{ b.cover }}</p>
+    <p><strong>Price: $</strong>{{ b.price }}</p>
+</div>

@@ -9,5 +9,6 @@ import { CommonModule } from '@angular/common'; ///////add commonmodule
   styleUrl: './content-card.component.scss'
 })
 export class ContentCardComponent {
-  @Input() bookItem: any;
+  @Input() bookItem: any;   ///only 1 item
 }
+

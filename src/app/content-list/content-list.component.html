@@ -1,1 +1,11 @@
-<p>content-list works!</p>
+
+<app-content-card [bookItem]="bookItems"></app-content-card>
+<!--contentcard-->
+
+
+<!--  // Search Content as string -->
+<input type="text" [(ngModel)]="searchContent" placeholder="Enter Content">
+<button (click)="checkContentExists()">Check Content</button>
+
+<!-- Display search result message  // content Exist -->
+<p [ngStyle]="{'color': contentExists ? 'green' : 'red'}">{{ searchContent }}</p>
